@@ -1,2 +1,2 @@
-var num:number1;
+var num:number;
 var num2 = 10;
