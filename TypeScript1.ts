@@ -13,7 +13,7 @@ function add2(val1:myType, val2:myType):myType
   {
    return val1 + val2;   
   }
-  if(type of val1 === 'string' && type of val2 === 'string')
+  if(typeof val1 === 'string' && typeof val2 === 'string')
   {
    return val1 + val2;   
   }
@@ -23,4 +23,4 @@ function add2(val1:myType, val2:myType):myType
  
 }
 
-var result2 = add2("test1", 'test2");
+var result2 = add2("test1", "test2");
